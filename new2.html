@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #111B47;
+            --text-color: #505F98;
+            --light-bg: #F2F2F2;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #37447E;
+        }
+        .navbar {
+            padding: 20px 0;
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .btn-outline-primary {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+        .hero, .feature-section, .price-section, footer {
+            padding: 70px 0;
+        }
+        .hero {
+            background-color: #F8F9FF;
+        }
+        .feature-section.bg-light, .price-section {
+            background-color: var(--light-bg);
+        }
+        .feature-item img {
+            max-width: 30px;
+        }
+        .price {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Brand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <button class="btn btn-primary ms-3">Buy Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Introduce Your Product Quickly & Effectively</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="btn btn-primary me-2">Purchase UI Kit</button>
+                    <button class="btn btn-outline-primary">Learn More</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/500x400" class="img-fluid" alt="Hero">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section 1 -->
+    <section class="feature-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2>Light, Fast & Powerful</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="row">
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature Title</h4>
+                            <p>Feature description text.</p>
+                        </div>
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature Title</h4>
+                            <p>Feature description text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/400x600" class="img-fluid" alt="Feature Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section 2 -->
+    <section class="feature-section bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/300x600" class="img-fluid" alt="Phone">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Design & Build Your Own Landing Pages</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="row">
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature One</h4>
+                            <p>Text here</p>
+                        </div>
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature Two</h4>
+                            <p>Text here</p>
+                        </div>
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature Three</h4>
+                            <p>Text here</p>
+                        </div>
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature Four</h4>
+                            <p>Text here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Feature Section 2 -->
+     <section class="feature-section bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/300x600" class="img-fluid" alt="Phone">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Design & Build Your Own Landing Pages</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="row">
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature One</h4>
+                            <p>Text here</p>
+                        </div>
+                        <div class="col-md-6 feature-item">
+                            <img src="https://via.placeholder.com/30" alt="Icon">
+                            <h4>Feature Two</h4>
+                            <p>Text here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section 3 -->
+    <section class="feature-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2>Light, Fast & Powerful</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="price-section text-center">
+        <div class="container">
+            <h2>A Price To Suit Everyone</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="price">$40</div>
+            <p>UI Design Kit for all sections</p>
+            <button class="btn btn-primary">Purchase Now</button>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="feature-section text-center">
+        <div class="container">
+            <h2>Stay in the loop</h2>
+            <p class="text-muted">Join our newsletter to get top news before anyone else.</p>
+            <form class="row justify-content-center">
+                <div class="col-md-6">
+                    <input type="email" class="form-control form-control-lg mb-3" placeholder="Enter your email">
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-primary btn-lg">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>©2023 Yourcompany</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
